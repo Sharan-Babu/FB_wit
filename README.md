@@ -1,40 +1,40 @@
 # DevCoder - Wit.ai
-<b>Hi.</b> In this tutorial, I am going to teach you how to use <b>wit.ai</b> through a fun mini project. By the end of this project you will understand the basics of  <i>Natural Language Processing, intent recognition and entity extraction. You will also learn how to use wit.ai for your use case.</i>
+<b>Hi.</b> In this tutorial, I am going to teach you how to use <b>wit.ai</b> through a fun mini project. By the end of this project, you will understand the basics of  <i>Natural Language Processing, intent recognition and entity extraction. You will also learn how to use wit.ai for your use case.</i>
 
 Ok, so let us consider a real world example to get ourselves excited. How do big companies like <i>Amazon, Flipkart</i> evaluate the customer reviews for a product or automate a considerable amount of  their customer care services? This is done with the help of Natural Language Processing (abbreviated as NLP). It is a branch of <i>Artificial Intelligence/ Machine Learning</i> that deals with the interaction between computers and humans through the medium of natural language. This could be <i>text or speech.</i> We ultimately want to derive meaningful insights from the end user’s input.
 
 Now, let us learn about 2 important concepts in NLP which will help us in implementing the project that follows this theory.
 First, let us understand what <b>intent recognition</b> is. As the name suggests, we expect the computer to infer the intent from user’s input (text or audio) , understand the purpose of the message and thereby take meaningful actions.
 
-<i>Example of this in everyday life:</i> When you ask Siri or google assistant to <i>set a reminder to wake you up in the morning</i>, it doesn’t call your most frequented contact which is totally irrelevant from our intended action. This is because it rightly understands what you wanted it to do and hence does the same.
+<i>Example of this in everyday life:</i> When you ask Siri or google assistant to <i>set a reminder to wake you up in the morning</i>, it doesn’t call your most frequented contact which is totally irrelevant from our intended action. This is because it rightly understands what you wanted it to do and hence, does the same.
 
-<b>A formal definition for what intent classification is</b>:<br>
+<b><ins>Formal definition of Intent Classification</ins></b>:<br>
 Intent classification is the automated association of text to a specific purpose or goal. In essence, a classifier analyzes pieces of text and categorizes them into intents such as Purchase, Downgrade, Unsubscribe, and Demo Request.<br>
 <i>source: google</i>
 
-Now, let us move on to what <b>entity extraction</b> is…. Continuing with the theme of the above voice assistant example, the term morning in your request <b><i>“Set a reminder to wake me up in the morning”</b></i> is very vague. 
+Now, let us move on to what <b>entity extraction</b> is…. Continuing with the theme of the above voice assistant example, the term <i>'morning'</i> in your request <b><i>“Set a reminder to wake me up in the morning”</b></i> is very vague. 
 
-A more meaningful input to the device would be, <b><i>“Wake me up every day at 7 am”</b></i>. Now, your assistant wakes you up daily exactly at 7 am because not only did it recognize the intent of the user but it also extracted the entity. In this case the assistant understands that the value ‘7’ refers to the time.
+A more meaningful input to the device would be, <b><i>“Wake me up every day at 7 am”</b></i>. Now, your assistant wakes you up daily exactly at 7 am because not only did it recognize the intent of the user but it also extracted the entity. In this case, the assistant understands that the value ‘7’ refers to the time.
 
 Note that people who built this algorithm had to define numbers like this to be extracted as time before hand and trained the AI algorithm accordingly.
 
-<b>A formal definition for what entity recognition is:</b><br>
+<b><ins>Formal definition of Entity Recognition is</ins>:</b><br>
 Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions.<br>
 <i>source: google</i>
 
-<b><u>What will we be building?</b></u>
-We will be building a <b>'Code Editor Assistant'</b> with the help of python and wit.ai to help developers build cool software fast (No heavy code,I promise).
+<b><ins>What will we be building?</b></ins>
+We will be building a <b>'Code Editor Assistant'</b> with the help of <i>Python</i> and <i>wit.ai</ins> to help developers build cool software fast (No heavy code,I promise).
 
 You can interact with the final outcome of this project by visiting the following URL:<br> https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
 
-<b>Wit.ai</b> is a <b>Facebook</b> owned open source chatbot framework with <i>advanced natural language processing</i> capabilities. The best part being you won’t have to code anything or need prior knowledge of any kind to build chatbots. All you have to do is type and click and your chatbot is ready to be served in your app with the help of only a simple API call.
+<b>Wit.ai</b> is a <b>Facebook</b> owned open source chatbot framework with <i>advanced natural language processing</i> capabilities. The best part being you won’t have to code to train the NLP model (chatbot) or need prior knowledge of any kind. All you have to do is <i>type and click</i> and your chatbot is ready to be served in your app with the help of a simple API call.
 
-Something that might interest you from a production/business perspective is that wit.ai provides a generous free tier with up to 240 requests per minute per user and 60 requests per minute per app.
+Something that might interest you from a production/business perspective is that <b>Wit.ai</b> provides a generous free tier with up to <i>240 requests per minute per user</i> and <i>60 requests per minute per app</i>.
 
-Now, let us build the <b>chatbot</b> from ground up using <i>wit.ai</i> and I will be explaining it one step at a time.
+Now, let us build the <b>chatbot</b> from ground up using <i>Wit.ai</i> and I will be explaining the procedure one step at a time.
 
 
-1) Go to URL https://wit.ai/
+1) Go to the URL https://wit.ai/
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit1.JPG)
 
@@ -50,7 +50,7 @@ Now, click on the <b>Create New App</b> button.
 5)	A new project will be created and your screen should look like this:
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit3.JPG)
 
-6)	To the <i>left</i> you can find a handy menu bar which we will talk about in a minute and in the center you will see the main components with which we will be brewing our magic.
+6)	To the <i>left</i> you can find a handy menu bar which we will talk about in a minute and in the center you can see the main components with which we will be brewing our magic.
 
 7)	 Now, let us understand how to create an intent and select present entities in the incoming prompt as per our use-case <i>(Code Assistant)</i>.
 
@@ -58,7 +58,7 @@ Now, click on the <b>Create New App</b> button.
 
 9)	 Select the <b>‘Choose or add intent’</b> dropdown button. Now, enter an intent name (a name you are comfortable with) in the text field visible and click the <b>‘+ Create Intent’</b> button to the right. In this case, I will be naming my intent <b><i>‘arrange_list’</i></b>
 
-10)	Time to select a intent:
+10)	<ins>Time to select an entity</ins>:
 Select the text <b>‘elements’</b>. As soon as you do this, you will see a new dropdown menu. Now enter an entity name of your choice in the <b>‘Entity for elements’</b> text field and click <b>‘+ Create Entity’</b>. I will be naming it <b>‘list_name’</b>. I would recommend you to follow this naming convention if you are making the app along with me.
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit4.JPG)
@@ -69,7 +69,7 @@ You can now see that wit.ai has highlighted our entity.
 
 12)	From what we have done so far, we can realize the role that the extracted intent and entity will be playing in the website's source code. For example, considering the utterance we just added, it is important to know what the user had named his/her <i>'list'</i> as and what he/she wishes to do with it. With this information, we could return <b>‘elements = slements.sorted()’</b> to the user which is the right answer for sorting elements in ascending order in Python.
 
-13)	This way add multiple utterances with corresponding intent and entities to the chatbot. The more the better. Add a considerable amount of utterances for the trained model to be well generalized. Only then will it return correct outputs for the user’s input prompt. Try to think from the user’s perspective and add your utterances.
+13)	In the same way, add multiple utterances with corresponding intent and entities to the chatbot. The more the better. Add a considerable amount of utterances for the trained model to be well generalized. Only then will it return correct outputs for the user’s input prompt. Try to think from the user’s perspective and add your utterances.
 
 14)	( Do not forget to hit the <b>'Train and Validate'</b> button after adding each utterance!!!)
 
@@ -83,7 +83,7 @@ You can now see that wit.ai has highlighted our entity.
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit5.JPG)
 
-That’s it. Our chatbot is ready. Now, let us make a simple web interface for our voice based code assistant.
+That’s it. Our chatbot is ready. Now, let us make a simple web interface for our <i>code editor assistant</i>.
 
 19)	Create a new python file called <b>Devbot.py</b> and paste the following code:
 
