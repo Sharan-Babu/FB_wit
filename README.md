@@ -22,7 +22,7 @@ Note that people who built this algorithm had to define numbers like this to be 
 Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions.<br>
 <i>source: google</i>
 
-<b><ins>What will we be building?</b></ins>
+<b><ins>What will we be building?</b></ins><br>
 We will be building a <b>'Code Editor Assistant'</b> with the help of <i>Python</i> and <i>wit.ai</ins> to help developers build cool software fast (No heavy code,I promise).
 
 You can interact with the final outcome of this project by visiting the following URL:<br> https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
