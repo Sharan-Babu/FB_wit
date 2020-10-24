@@ -91,8 +91,8 @@ That’s it. Our chatbot is ready. Now, let us make a simple web interface for o
 
 You can find the code and steps to run the program at the following Github repo link:<br>
 https://github.com/Sharan-Babu/FB_wit
-<br>
-(OR) follow these steps to go along...
+<br><br>
+<b>(OR)</b> follow these steps and continue...
 
 20)	Clone the repo. Install required libraries and open Devbot.py
 
