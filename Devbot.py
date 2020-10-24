@@ -49,10 +49,6 @@ content = st_ace(
         wrap=True
     )
 
-MyText=""
-with open("code.txt") as file:
-    MyText = file.read()
-
 
 MyText = st.text_input("Enter prompt","Ex: Sort the list 'elements'")
 try:
@@ -67,9 +63,3 @@ except:
 
 if len(MyText)>0:
     st_ace(value=output(intent,entity),height=50)
-
-
-
-if st.button('Save Editor Code'):
-    with open('editor.txt',"w") as file:
-        file.write(content)
