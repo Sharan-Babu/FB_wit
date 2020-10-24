@@ -68,9 +68,7 @@ except:
 if len(MyText)>0:
     st_ace(value=output(intent,entity),height=50)
 
-if st.button('Clear Cache'):
-    with open("code.txt","w") as file:
-        file.write("")
+
 
 if st.button('Save Editor Code'):
     with open('editor.txt',"w") as file:
