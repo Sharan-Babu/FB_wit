@@ -9,7 +9,7 @@ First, let us understand what <b>intent recognition</b> is. As the name suggests
 <i>Example of this in everyday life:</i> When you ask Siri or google assistant to <i>set a reminder to wake you up in the morning</i>, it doesn’t call your most frequented contact which is totally irrelevant from our intended action. This is because it rightly understands what you wanted it to do and hence does the same.
 
 <b>A formal definition for what intent classification is</b>:<br>
-Intent classification is the automated association of text to a specific purpose or goal. In essence, a classifier analyzes pieces of text and categorizes them into intents such as Purchase, Downgrade, Unsubscribe, and Demo Request.
+Intent classification is the automated association of text to a specific purpose or goal. In essence, a classifier analyzes pieces of text and categorizes them into intents such as Purchase, Downgrade, Unsubscribe, and Demo Request.<br>
 <i>source: google</i>
 
 Now, let us move on to what <b>entity extraction</b> is…. Continuing with the theme of the above voice assistant example, the term morning in your request <b><i>“Set a reminder to wake me up in the morning”</b></i> is very vague. 
@@ -19,7 +19,7 @@ A more meaningful input to the device would be, <b><i>“Wake me up every day at
 Note that people who built this algorithm had to define numbers like this to be extracted as time before hand and trained the AI algorithm accordingly.
 
 <b>A formal definition for what entity recognition is:</b><br>
-Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions
+Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions.<br>
 <i>source: google</i>
 
 <b><u>What will we be building?</b></u>
@@ -27,11 +27,11 @@ We will be building a <b>'Code Editor Assistant'</b> with the help of python and
 
 You can interact with the final outcome of this project by visiting the following URL:<br> https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
 
-Wit.ai is a Facebook owned open source chatbot framework with advanced natural language processing capabilities. The best part being you won’t have to code anything or need prior knowledge of any kind to build chatbots. All you have to do is type and click and your chatbot is ready to be served in your app with the help of only a simple API call.
+<b>Wit.ai</b> is a <b>Facebook</b> owned open source chatbot framework with <i>advanced natural language processing</i> capabilities. The best part being you won’t have to code anything or need prior knowledge of any kind to build chatbots. All you have to do is type and click and your chatbot is ready to be served in your app with the help of only a simple API call.
 
 Something that might interest you from a production/business perspective is that wit.ai provides a generous free tier with up to 240 requests per minute per user and 60 requests per minute per app.
 
-Now, let us build the chatbot from ground up using wit.ai and I will be explaining it one step at a time.
+Now, let us build the <b>chatbot</b> from ground up using <i>wit.ai</i> and I will be explaining it one step at a time.
 
 
 1) Go to URL https://wit.ai/
@@ -41,20 +41,20 @@ Now, let us build the chatbot from ground up using wit.ai and I will be explaini
 2)	Click on Continue with Facebook account and fill the necessary details.
 
 3) Your homepage should look something like this. If this is the first time you have logged in, you will also be guided with the help of an interactive tutorial. Nevertheless, you can continue reading through this article to navigate your way through the platform.
-Now, click on the Create New App button.
+Now, click on the <b>Create New App</b> button.
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit2.JPG)
 
-4)	Select the name for your app and preferred language and click create.
+4)	Select the <b>name</b> for your app and <b>preferred language</b> and click <b>'Create'</b>.
 
 5)	A new project will be created and your screen should look like this:
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit3.JPG)
 
-6)	To the left you can find a handy menu bar which we will talk about in a minute and in the center you will see the main components with which we will be brewing our magic.
+6)	To the <i>left</i> you can find a handy menu bar which we will talk about in a minute and in the center you will see the main components with which we will be brewing our magic.
 
-7)	 Now, let us understand how to create an intent and select present entities in the incoming prompt as per our use-case (Code Assistant).
+7)	 Now, let us understand how to create an intent and select present entities in the incoming prompt as per our use-case <i>(Code Assistant)</i>.
 
-8)	 In the Utterance text field, type what you think the end user might type. For example: A coder using our web app might type <i>"arrange my list called 'elements' in ascending order"</i>. So, this becomes our <b>utterance</b>. 
+8)	 In the <i>Utterance text field</i>, type what you think the end user might type. For example: A coder using our web app might type <i>"arrange my list called 'elements' in ascending order"</i>. So, this becomes our <b>utterance</b>. 
 
 9)	 Select the <b>‘Choose or add intent’</b> dropdown button. Now, enter an intent name (a name you are comfortable with) in the text field visible and click the <b>‘+ Create Intent’</b> button to the right. In this case, I will be naming my intent <b><i>‘arrange_list’</i></b>
 
@@ -65,13 +65,13 @@ Select the text <b>‘elements’</b>. As soon as you do this, you will see a ne
 
 You can now see that wit.ai has highlighted our entity. 
 
-11)	Click on the Train and Validate button at the bottom and <i>voila</i> you just added the first utterance to your chatbot. :clap: :clap: :clap:
+11)	Click on the <b>Train and Validate</b> button at the bottom and <i>voila</i> you just added the first utterance to your chatbot. :clap: :clap: :clap:
 
 12)	From what we have done so far, we can realize the role that the extracted intent and entity will be playing in the website's source code. For example, considering the utterance we just added, it is important to know what the user had named his/her <i>'list'</i> as and what he/she wishes to do with it. With this information, we could return <b>‘elements = slements.sorted()’</b> to the user which is the right answer for sorting elements in ascending order in Python.
 
 13)	This way add multiple utterances with corresponding intent and entities to the chatbot. The more the better. Add a considerable amount of utterances for the trained model to be well generalized. Only then will it return correct outputs for the user’s input prompt. Try to think from the user’s perspective and add your utterances.
 
-14)	( Do not forget to hit the Train and Validate button after adding each utterance!!!)
+14)	( Do not forget to hit the <b>'Train and Validate'</b> button after adding each utterance!!!)
 
 15)	One useful thing you might notice while working with <b>Wit.ai</b> is that after you add a few examples for a specific intent, wit automatically tries to classify it. 
 
@@ -91,9 +91,10 @@ That’s it. Our chatbot is ready. Now, let us make a simple web interface for o
 
 You can find the code and steps to run the program at the following Github repo link:<br>
 https://github.com/Sharan-Babu/FB_wit
+<br>
 (OR) follow these steps to go along...
 
-20)	Clone the repo. Install required libraries and open Fb_Ai.py
+20)	Clone the repo. Install required libraries and open Devbot.py
 
 21)	Here you have a few changes to be made. At 'line 5' replace my access token with yours you copied from the settings page for the changes you made to take effect. You can use mine as well.
 
