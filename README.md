@@ -87,7 +87,7 @@ That’s it. Our chatbot is ready. Now let us make a simple web interface for ou
 
 19)	Create a new python file called Devbot.py and paste the following code:
 
-![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/steps_to_run.png)
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/code.png)
 
 You can find the code and steps to run the program at the following Github repository:
 https://github.com/Sharan-Babu/FB_wit
