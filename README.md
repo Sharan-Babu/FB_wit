@@ -107,7 +107,7 @@ https://github.com/Sharan-Babu/FB_wit
 streamlit run Devbot.py
 ~~~
 
-25)	That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Go enjoy and make more useful apps with your newly learnt skills!</i>:dancer:
+25)	That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Go enjoy and make more useful apps with your newly learnt skills!</i>:dancer: :dancer:
 
 Youtube URL for the demo: https://youtu.be/OQjbIcpCgSE
 
