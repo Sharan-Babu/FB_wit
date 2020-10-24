@@ -55,15 +55,15 @@ with open("code.txt") as file:
 
 
 MyText = st.text_input("Enter prompt","Ex: Sort the list 'elements'")
-    try:
-        if st.button('Get Code'):
-    	    response = client.message(MyText)
-    	    intent = response['intents'][0]['name']
-    	    entity = response['entities']['list_name:list_name'][0]['value']
-    	    with open("code.txt","w") as file:
-    		    file.write(output(intent,entity))
-    except:
-            st.warning('Ambiguous query. Please try again')    
+try:
+    if st.button('Get Code'):
+    	response = client.message(MyText)
+    	intent = response['intents'][0]['name']
+    	entity = response['entities']['list_name:list_name'][0]['value']
+    	with open("code.txt","w") as file:
+    		file.write(output(intent,entity))
+except:
+        st.warning('Ambiguous query. Please try again')    
 
 if len(MyText)>0:
     st_ace(value=output(intent,entity),height=50)
