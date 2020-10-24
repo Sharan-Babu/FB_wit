@@ -29,7 +29,7 @@ def output(intent,entity):
     elif intent=="list_reverse":
         return f"reverse_list={entity}.reverse()"
     else:
-        return "#Instruct with voice" 
+        return "#Instruct with text" 
 
 
 st.title('FB Wit.ai App - DevCoder')
