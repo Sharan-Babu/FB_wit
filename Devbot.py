@@ -60,8 +60,8 @@ try:
     	response = client.message(MyText)
     	intent = response['intents'][0]['name']
     	entity = response['entities']['list_name:list_name'][0]['value']
-    	with open("code.txt","w") as file:
-    		file.write(output(intent,entity))
+    	
+    		
 except:
         st.warning('Ambiguous query. Please try again')    
 
