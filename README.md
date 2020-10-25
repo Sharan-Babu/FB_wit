@@ -1,5 +1,10 @@
 # DevCoder - Wit.ai
+## Introduction
 <b>Hi.</b> In this tutorial, I am going to teach you how to use <b>wit.ai</b> through a fun mini project. By the end of this project, you will understand the basics of  <i>Natural Language Processing, intent recognition and entity extraction. You will also learn how to use wit.ai for your use case.</i>
+
+No technical expertise needed (beginner friendly).<br>
+Basic idea of Python and API calls (Optional).<br>
+Requires Python with version > 3 and streamlit library (Steps to download mentioned in the tutorial).
 
 Ok, so let us consider a real world example to get ourselves excited. How do big companies like <i>Amazon, Flipkart</i> evaluate the customer reviews for a product or automate a considerable amount of  their customer care services? This is done with the help of Natural Language Processing (abbreviated as NLP). It is a branch of <i>Artificial Intelligence/ Machine Learning</i> that deals with the interaction between computers and humans through the medium of natural language. This could be <i>text or speech.</i> We ultimately want to derive meaningful insights from the end user’s input.
 
