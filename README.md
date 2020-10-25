@@ -100,7 +100,7 @@ You can now see that wit.ai has highlighted our entity.
 That’s it. Our chatbot is ready. Now, let us make a simple web interface for our <i>code editor assistant</i>.
 
 ## Code
-If you wish to directly run the final program,follow the instructions in the image below:<br><br>
+If you wish to directly run the final program on your local machine,follow the instructions in the image below:<br><br>
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/steps_to_run.png)
 <br><br>
 
@@ -112,7 +112,7 @@ If you wish to directly run the final program,follow the instructions in the ima
 
 You can find the above code at the following Github repo link:<br>
 https://github.com/Sharan-Babu/FB_wit
-<br>
+<br><br>
 20)	Install required libraries
 
 ~~~
@@ -133,7 +133,7 @@ We import the streamlit library as <i>'st'</i> and you can see that this is used
 streamlit run Devbot.py
 ~~~
 
-25)	That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with wit.ai. I would recommend you to make more useful apps with your newly learnt skills!</i>:dancer: :dancer:
+25)	That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai. I would recommend you to make more useful apps with your newly learnt skills!</i>:dancer: :dancer:
 <hr>
 
 ### Other Links
