@@ -7,7 +7,7 @@ No technical expertise needed (beginner friendly).<br>
 Basic idea of Python and API calls (Optional).<br>
 Requires Python with version > 3 and streamlit library (Steps to download mentioned in the tutorial).
 
-## Getting started 
+## Getting Started 
 Ok, so let us consider a real world example to get ourselves excited. How do big companies like <i>Amazon, Flipkart</i> evaluate the customer reviews for a product or automate a considerable amount of  their customer care services? This is done with the help of Natural Language Processing (abbreviated as NLP). It is a branch of <i>Artificial Intelligence/ Machine Learning</i> that deals with the interaction between computers and humans through the medium of natural language. This could be <i>text or speech.</i> We ultimately want to derive meaningful insights from the end user’s input.
 
 ## Basic Concepts
@@ -127,8 +127,10 @@ streamlit run Devbot.py
 ~~~
 
 25)	That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Go enjoy and make more useful apps with your newly learnt skills!</i>:dancer: :dancer:
+<hr>
 
 Youtube URL for the demo: https://youtu.be/OQjbIcpCgSE
+Hosted Demo Link: https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
 <br>
 Please feel free to give your feedback @:<br>
 Email: sharanbabu2001@gmail.com  <br>
