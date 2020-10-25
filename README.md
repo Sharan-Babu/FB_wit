@@ -100,22 +100,25 @@ You can now see that wit.ai has highlighted our entity.
 That’s it. Our chatbot is ready. Now, let us make a simple web interface for our <i>code editor assistant</i>.
 
 ## Code
+If you wish to directly run the final program,follow the instructions in the image below:<br>
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/steps_to_run.png)
+<br><br>
+
+<b>(OR)</b> follow these steps and continue...
+
 19)	Create a new python file called <b>Devbot.py</b> and paste the following code:
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/code.png)
 
 You can find the above code at the following Github repo link:<br>
 https://github.com/Sharan-Babu/FB_wit
-<br>
-If you wish to directly run the final program,follow the instructions in the image below:<br>
-![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/steps_to_run.png)
 <br><br>
-<b>(OR)</b> follow these steps and continue...
 
-20)	Clone the repo. Install required libraries from requirements.txt and open Devbot.py
+20)	Install required libraries
 
 ~~~
-pip install -r 
+pip install streamlit wit streamlit-ace 
+~~~
 
 21)	Here you have a few changes to be made. At 'line 5' replace my access token with yours you copied from the settings page for the changes you made to take effect. You can use mine as well.
 
