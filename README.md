@@ -101,9 +101,9 @@ https://github.com/Sharan-Babu/FB_wit
 22)	I have built the web interface along with the interactive code editor you can see using a <i>Python web framework</i> called streamlit. You can learn more about it here:<br> https://www.streamlit.io/
 
 <ins>In-depth explanation of the code</ins>: (OPTIONAL)<br>
-We import the streamlit library as 'st' and you can see that this is used at multiple lines where we construct the widgets like input box, menu bars. Lines 38-50 construct the code editor interface using the streamlit-ace library along with parameters of your choice. Lines 10-16 also hold optional parameters for the Editor widget. Finally, using lines 5 and 53-62 we output a response to the user.
+We import the streamlit library as <i>'st'</i> and you can see that this is used at multiple lines using which we construct widgets like input box, menu bars and buttons. Lines 38-50 construct the code editor interface using the streamlit-ace library along with parameters of your choice. Lines 10-16 also hold optional parameters that affect the Editor widget. Finally, using lines 5 and 53-62 we output a response to the user.
 
-23)	Lines 18 to 32 form the backend function that takes the intent and entity extracted from the user prompt as input . <b>Wit API</b> returns <i>JSON (Javasript Object Notation)</i>. It is similar to a Python dictionary and from that we can find the returned entity. Using this we can hand-craft the output to be displayed to our user.
+23)	Lines 18 to 32 form the backend function that takes the intent and entity extracted from the user prompt as input. <b>Wit API</b> returns <i>JSON (Javasript Object Notation)</i>. It is similar to a Python dictionary and from that we can find the returned entity. Using this we can hand-craft the output to be displayed to our user.
 
 24) Save the file. Open the terminal, go to the working directory and run the command 
 ~~~
