@@ -79,15 +79,15 @@ Select the text <b>‘elements’</b>. As soon as you do this, you will see a ne
 
 You can now see that wit.ai has highlighted our entity. 
 
-11)	Click on the <b>Train and Validate</b> button at the bottom and <i>voila</i> you just added the first utterance to your chatbot. :clap: :clap: :clap:
+11)	Click on the <b>Train and Validate</b> button at the bottom and <i>voila,</i> you just added the first utterance to your chatbot. :clap: :clap: :clap:
 
-12)	From what we have done so far, we can realize the role that the extracted intent and entity will be playing in the website's source code. For example, considering the utterance we just added, it is important to know what the user had named his/her <i>'list'</i> as and what he/she wishes to do with it. With this information, we could return <b>‘elements = slements.sorted()’</b> to the user which is the right answer for sorting elements in ascending order in Python.
+12)	From what we have done so far, we can realize the role that the extracted intent and entity will be playing in the website's source code. For example, considering the utterance we just added, it is important to know what the user had named his/her <i>'list'</i> as and what he/she wishes to do with it. With this information, we could return <b>‘elements = elements.sorted()’</b> to the user which is the right answer for sorting elements in ascending order in Python.
 
 13)	In the same way, add multiple utterances with corresponding intent and entities to the chatbot. The more the better. Add a considerable amount of utterances for the trained model to be well generalized. Only then will it return correct outputs for the user’s input prompt. Try to think from the user’s perspective and add your utterances.
 
 14)	( Do not forget to hit the <b>'Train and Validate'</b> button after adding each utterance!!!)
 
-15)	One useful thing you might notice while working with <b>Wit.ai</b> is that after you add a few examples for a specific intent, wit automatically tries to classify it. 
+15)	One useful thing you might notice while working with <b>Wit.ai</b> is that after you add a few examples for a specific intent, Wit automatically tries to classify it. 
 
 16)	I would consider adding some other intent like <b>‘create_list’</b> , <b>‘list_reverse’</b> and <b>‘list_max’</b> for the purpose of this demo and the names are self-explanatory as to what they mean.
 
@@ -138,6 +138,8 @@ streamlit run Devbot.py
 
 ### Other Links
 Youtube URL for the demo: https://youtu.be/OQjbIcpCgSE
+<br>
+Github repository link: https://github.com/Sharan-Babu/FB_wit
 <br>
 Hosted Demo Link: https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
 <br>
