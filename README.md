@@ -7,9 +7,10 @@ No technical expertise needed (beginner friendly).<br>
 Basic idea of Python and API calls (Optional).<br>
 Requires Python with version > 3 and streamlit library (Steps to download mentioned in the tutorial).
 
-## Getting started and basic concepts
+## Getting started 
 Ok, so let us consider a real world example to get ourselves excited. How do big companies like <i>Amazon, Flipkart</i> evaluate the customer reviews for a product or automate a considerable amount of  their customer care services? This is done with the help of Natural Language Processing (abbreviated as NLP). It is a branch of <i>Artificial Intelligence/ Machine Learning</i> that deals with the interaction between computers and humans through the medium of natural language. This could be <i>text or speech.</i> We ultimately want to derive meaningful insights from the end user’s input.
 
+## Basic Concepts
 Now, let us learn about 2 important concepts in NLP which will help us in implementing the project that follows this theory.
 First, let us understand what <b>intent recognition</b> is. As the name suggests, we expect the computer to infer the intent from user’s input (text or audio) , understand the purpose of the message and thereby take meaningful actions.
 
@@ -35,7 +36,7 @@ We will be building a <b>'Code Editor Assistant'</b> with the help of <i>Python<
 
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/virtual-assistant.png" width="450" height="400">
 
-Source: <a href="https://iconscout.com/illustrations/virtual-assistant" target="_blank">Virtual-assistant Illustration</a> by <a href="https://iconscout.com/contributors/delesign" target="_blank">Delesign Graphics</a> (Creative Commons License)<br>
+<i>source</i>: <a href="https://iconscout.com/illustrations/virtual-assistant" target="_blank">Virtual-assistant Illustration</a> by <a href="https://iconscout.com/contributors/delesign" target="_blank">Delesign Graphics</a> (Creative Commons License)<br>
 
 You can interact with the final outcome of this project by visiting the following URL:<br> https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
 
@@ -99,6 +100,7 @@ You can now see that wit.ai has highlighted our entity.
 
 That’s it. Our chatbot is ready. Now, let us make a simple web interface for our <i>code editor assistant</i>.
 
+## Code
 19)	Create a new python file called <b>Devbot.py</b> and paste the following code:
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/code.png)
