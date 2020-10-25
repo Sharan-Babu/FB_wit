@@ -70,7 +70,7 @@ Now, click on the <b>Create New App</b> button.
 
 8)	 In the <i>Utterance text field</i>, type what you think the end user might type. For example: A coder using our web app might type <i>"arrange my list called 'elements' in ascending order"</i>. So, this becomes our <b>utterance</b>. 
 
-9)	 Select the <b>‘Choose or add intent’</b> dropdown button. Now, enter an intent name (a name you are comfortable with) in the text field visible and click the <b>‘+ Create Intent’</b> button to the right. In this case, I will be naming my intent <b><i>‘arrange_list’</i></b>
+9)	 Select the <b>‘Choose or add intent’</b> dropdown button. Now, enter an intent name (a name you are comfortable with) in the text field visible and click the <b>‘+ Create Intent’</b> button to the right. In this case, I will be naming my intent <b><i>‘arrange_list’</i></b>.
 
 10)	<ins>Time to select an entity</ins>:
 Select the text <b>‘elements’</b>. As soon as you do this, you will see a new dropdown menu. Now enter an entity name of your choice in the <b>‘Entity for elements’</b> text field and click <b>‘+ Create Entity’</b>. I will be naming it <b>‘list_name’</b>. I would recommend you to follow this naming convention if you are making the app along with me.
@@ -142,7 +142,7 @@ Youtube URL for the demo: https://youtu.be/OQjbIcpCgSE
 Github repository link: https://github.com/Sharan-Babu/FB_wit
 <br>
 Hosted Demo Link: https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
-<br>
+<br><br>
 Please feel free to give your feedback @:<br>
 Email: sharanbabu2001@gmail.com  <br>
 Linkedin: https://www.linkedin.com/in/sharan-babu-39a757197/
