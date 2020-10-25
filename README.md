@@ -34,9 +34,9 @@ Named-entity recognition is a subtask of information extraction that seeks to lo
 ## What will we be building?<br>
 We will be building a <b>'Code Editor Assistant'</b> with the help of <i>Python</i> and <i>wit.ai</ins> to help developers build cool software fast (No heavy code,I promise).
 
+<figure>
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/virtual-assistant.png" width="450" height="400">
-
-<i>source</i>: <a href="https://iconscout.com/illustrations/virtual-assistant" target="_blank">Virtual-assistant Illustration</a> by <a href="https://iconscout.com/contributors/delesign" target="_blank">Delesign Graphics</a> (Creative Commons License)<br>
+<figcaption><i>source</i>: <a href="https://iconscout.com/illustrations/virtual-assistant" target="_blank">Virtual-assistant Illustration</a> by <a href="https://iconscout.com/contributors/delesign" target="_blank">Delesign Graphics</a> (Creative Commons License)</figcaption></figure><br>
 
 You can interact with the final outcome of this project by visiting the following URL:<br> https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
 
@@ -130,11 +130,13 @@ streamlit run Devbot.py
 <hr>
 
 Youtube URL for the demo: https://youtu.be/OQjbIcpCgSE
+<br>
 Hosted Demo Link: https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
 <br>
 Please feel free to give your feedback @:<br>
 Email: sharanbabu2001@gmail.com  <br>
 Linkedin: https://www.linkedin.com/in/sharan-babu-39a757197/
+<hr>
 
 <ins>Picture of the final web application</ins>:
 
