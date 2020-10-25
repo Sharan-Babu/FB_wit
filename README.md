@@ -34,7 +34,8 @@ Named-entity recognition is a subtask of information extraction that seeks to lo
 We will be building a <b>'Code Editor Assistant'</b> with the help of <i>Python</i> and <i>wit.ai</ins> to help developers build cool software fast (No heavy code,I promise).
 
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/virtual-assistant.png" width="450" height="400">
-Source: <a href="https://iconscout.com/illustrations/virtual-assistant" target="_blank">Virtual-assistant Illustration</a> by <a href="https://iconscout.com/contributors/delesign" target="_blank">Delesign Graphics</a> (Creative Commons License)
+
+Source: <a href="https://iconscout.com/illustrations/virtual-assistant" target="_blank">Virtual-assistant Illustration</a> by <a href="https://iconscout.com/contributors/delesign" target="_blank">Delesign Graphics</a> (Creative Commons License)<br>
 
 You can interact with the final outcome of this project by visiting the following URL:<br> https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
 
