@@ -96,7 +96,7 @@ That’s it. Our chatbot is ready. Now, let us make a simple web interface for o
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/code.png)
 
-You can find the code and steps to run the program at the following Github repo link:<br>
+You can find the above code and steps to run the program at the following Github repo link:<br>
 https://github.com/Sharan-Babu/FB_wit
 <br><br>
 <b>(OR)</b> follow these steps and continue...
@@ -120,6 +120,10 @@ streamlit run Devbot.py
 25)	That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Go enjoy and make more useful apps with your newly learnt skills!</i>:dancer: :dancer:
 
 Youtube URL for the demo: https://youtu.be/OQjbIcpCgSE
+<br>
+Please feel free to give your feedback @:<br>
+Email: sharanbabu2001@gmail.com  <br>
+Linkedin: https://www.linkedin.com/in/sharan-babu-39a757197/
 
 <ins>Picture of the final web application</ins>:
 
