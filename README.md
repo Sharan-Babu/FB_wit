@@ -28,11 +28,14 @@ Note that people who built this algorithm had to define numbers like this to be 
 <b><ins>Formal definition of Entity Recognition is</ins>:</b><br>
 Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions.<br>
 <i>source: google</i>
+<a href="https://iconscout.com/illustrations/virtual-assistant" target="_blank">Virtual-assistant Illustration</a> by <a href="https://iconscout.com/contributors/delesign" target="_blank">Delesign Graphics</a>
 
-<b><ins>What will we be building?</b></ins><br>
+## What will we be building?<br>
 We will be building a <b>'Code Editor Assistant'</b> with the help of <i>Python</i> and <i>wit.ai</ins> to help developers build cool software fast (No heavy code,I promise).
 
 You can interact with the final outcome of this project by visiting the following URL:<br> https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
+
+## Wit
 
 <b>Wit.ai</b> is a <b>Facebook</b> owned open source chatbot framework with <i>advanced natural language processing</i> capabilities. The best part being you won’t have to code to train the NLP model (chatbot) or need prior knowledge of any kind. All you have to do is <i>type and click</i> and your chatbot is ready to be served in your app with the help of a simple API call.
 
