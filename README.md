@@ -58,7 +58,7 @@ Streamlit code is very intuitive and thus you can understand the purpose of each
 https://www.streamlit.io/<br><br>
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/sb.JPG">
 
-:swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:
+:swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:
 
 ## What will we be building?<br>
 We will be building a <b>'Code Editor Assistant'</b> (chatbot) with the help of <i>Python</i> and <i>Wit.ai</i> to help developers build cool software fast (No heavy code,I promise).
