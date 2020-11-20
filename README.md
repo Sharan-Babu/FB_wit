@@ -33,7 +33,7 @@ Named-entity recognition is a subtask of information extraction that seeks to lo
 
 ### Basics of Streamlit
 #### What is Streamlit?<br>
-<i>Streamlit</i> is an open source web framework that lets you build webpages using only Python :snake:. Thereby, removing the need for developer to use HTML, CSS and Js. It uses what is called as widgets/components to construct your website.<br><br>
+<i>Streamlit</i> is an open source web framework that lets you build webpages using only Python :snake:. Thereby, removing the need for developers to use HTML, CSS and Js. It uses what is called as widgets/components to construct your website.<br><br>
 <b><ins>Developer Trivia</ins>:</b> Streamlit components are essentially Python wrappers of React code (Judges, extra points :grin:?).
 
 #### Installing streamlit
@@ -54,7 +54,7 @@ streamlit run streamlit_basics.py
 Streamlit code is very intuitive and thus you can understand the purpose of each widget by simply comparing the code to the rendered webpage.<br><br>
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/sb.JPG">
 
-:swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  
+:swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:
 
 ## What will we be building?<br>
 We will be building a <b>'Code Editor Assistant'</b> (chatbot) with the help of <i>Python</i> and <i>wit.ai</i> to help developers build cool software fast (No heavy code,I promise).
