@@ -51,7 +51,7 @@ streamlit run streamlit_basics.py
 ~~~
 
 #### Output Website
-Streamlit code is very intuitive and thus you can understand the purpose of each widget by simply comparing the code to the rendered webpage.You can learn more about Streamlit here:
+Streamlit code is very intuitive and thus you can understand the purpose of each widget by simply comparing the code to the rendered webpage. For Example: You can place 'Title'/large text on the webpage by passing a string of your choice to the .title() method. You can learn more about Streamlit here:
 https://www.streamlit.io/<br><br>
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/sb.JPG">
 
@@ -140,14 +140,14 @@ If you wish to directly run the final program on your local machine,follow the i
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/steps_to_run.png)
 <br><br>
 
-<b>(OR)</b> follow these steps and code along with me.....
+<b>(OR)</b> follow these steps and code along with me :muscle:.....
 
 19)	Install required libraries
 
 ~~~
 pip install streamlit wit streamlit-ace 
 ~~~
-'wit' is the library to be installed for interacting with the Wit API and streamlit-ace library is to be installed to construct out of the box code editors on the webpage as implementing one on our own can get quite complicated.
+'<i>wit</i>' is the library to be installed for interacting with the Wit API and '<i>streamlit-ace'</i> library is to be installed to construct out of the box code-editors on the webpage as implementing one on our own can get quite complicated.
 
 20)	Create a new python file called <b>Devbot.py</b> and paste the following code:<br>
 <i>Read the comments in green to understand the code or follow along for an in depth explanation of the code.</i>
