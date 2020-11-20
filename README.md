@@ -117,7 +117,7 @@ You can now see that wit.ai has highlighted our entity.
 
 12)	From what we have done so far, we can realize the role that the extracted intent and entity will be playing in the website's source code. For example, considering the utterance we just added, it is important to know what the user had named his/her <i>'list'</i> as and what he/she wishes to do with it. With this information, we could return <b>‘elements = elements.sorted()’</b> to the user which is the right answer for sorting elements in ascending order in Python.
 
-13)	In the same way, add multiple utterances with corresponding intent and entities to the chatbot. The more the better. Add a considerable amount of utterances for the trained model to be well generalized. Only then will it return correct outputs for the user’s input prompt. Try to think from the user’s perspective and add your utterances.
+13)	In the same way, you can add multiple utterances with corresponding intent and entities to the chatbot. The more the better. Add a considerable amount of utterances for the trained model to be well generalized. Only then will it return correct outputs for the user’s input prompt. Try to think from the user’s perspective and add your utterances.
 
 14)	( Do not forget to hit the <b>'Train and Validate'</b> button after adding each utterance!!!)
 
@@ -138,11 +138,11 @@ If you wish to directly run the final program on your local machine,follow the i
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/steps_to_run.png)
 <br><br>
 
-<b>(OR)</b> follow these steps and continue...
+<b>(OR)</b> follow these steps and code along with me.....
 
 19)	Create a new python file called <b>Devbot.py</b> and paste the following code:
 
-![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/code.png)
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/code1.png)
 
 You can find the above code at the following Github repo link:<br>
 https://github.com/Sharan-Babu/FB_wit
