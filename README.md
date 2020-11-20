@@ -140,7 +140,8 @@ If you wish to directly run the final program on your local machine,follow the i
 
 <b>(OR)</b> follow these steps and code along with me.....
 
-19)	Create a new python file called <b>Devbot.py</b> and paste the following code:
+19)	Create a new python file called <b>Devbot.py</b> and paste the following code:<br>
+<i>Read the comments in green to understand the code or follow along for an in depth explanation of the code.</i>
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/code1.png)
 
