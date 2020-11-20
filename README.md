@@ -172,6 +172,7 @@ https://github.com/Sharan-Babu/FB_wit
 <li>Lines 18 to 32 form the backend function that takes the intent and entity extracted from the user prompt as input. <b>Wit API</b> returns <i>JSON (Javasript Object Notation)</i>. It is similar to a Python dictionary and from that we can find the returned entity. Using this we can hand-craft the output to be displayed to our user.
 
 <li>Save the file. Open the terminal, go to the working directory and run the command:</li>
+
 ~~~
 streamlit run Devbot.py
 ~~~
