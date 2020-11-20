@@ -51,7 +51,7 @@ streamlit run streamlit_basics.py
 ~~~
 
 #### Output Website
-Streamlit code is very intuitive and thus you can understand the purpose of each widget by simply comparing the code to the rendered webpage. For Example: You can place 'Title'/large text on the webpage by passing a string of your choice to the .title() method. You can learn more about Streamlit here:
+Streamlit code is very intuitive and thus you can understand the purpose of each widget by simply comparing the code to the rendered webpage.<br><br> For Example: You can place 'Title'/large text on the webpage by passing a string of your choice to the .title() method.<br> You can learn more about Streamlit here:
 https://www.streamlit.io/<br><br>
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/sb.JPG">
 
@@ -120,6 +120,7 @@ You can now see that wit.ai has highlighted our entity.
 13)	In the same way, you can add multiple utterances with corresponding intent and entities to the chatbot. The more the better. Add a considerable amount of utterances for the trained model to be well generalized. Only then will it return correct outputs for the user’s input prompt. Try to think from the user’s perspective and add your utterances.
 
 14)	( Do not forget to hit the <b>'Train and Validate'</b> button after adding each utterance!!!)
+
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/train.JPG)
 
 15)	One useful thing you might notice while working with <b>Wit.ai</b> is that after you add a few examples for a specific intent, Wit automatically tries to classify it. 
