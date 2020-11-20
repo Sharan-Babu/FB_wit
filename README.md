@@ -1,6 +1,6 @@
 # DevCoder - Wit.ai
 ## Introduction
-<b>Hi.</b> In this tutorial, I am going to teach you how to use <b>Wit.ai</b> through a fun mini project. By the end of this project, you will understand the basics of  <i>Natural Language Processing, intent recognition and entity extraction. You will also learn how to use wit.ai for your use case.</i>
+<b>Hi.</b> In this tutorial, I am going to teach you how to use <b>Wit.ai</b> through a fun mini project. By the end of this project, you will understand the basics of  <i>Natural Language Processing, intent recognition and entity extraction. You will also learn how to use wit.ai for your use cases.</i>
 
 ## Prerequisites
 <ul>
@@ -18,7 +18,7 @@ First, let us understand what <b>intent recognition</b> is. As the name suggests
 <i>Example of this in everyday life:</i> When you ask Siri or google assistant to <i>set a reminder to wake you up in the morning</i>, it doesn’t call your most frequented contact which is totally irrelevant from our intended action. This is because it rightly understands what you wanted it to do and hence, does the same.
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/voice-control-2598422_1280.jpg)
-<i> Creative Commons Licence
+<i> Creative Commons License
 
 <b><ins>Formal definition of Intent Classification</ins></b>:<br>
 Intent classification is the automated association of text to a specific purpose or goal. In essence, a classifier analyzes pieces of text and categorizes them into intents such as Purchase, Downgrade, Unsubscribe, and Demo Request.<br>
@@ -95,7 +95,7 @@ Now, click on the <b>Create New App</b> button.
 <br><i>(Click on image to enlarge it)</i>
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit3.JPG)
 
-6)	To the <i>left</i> you can find a handy menu bar which we will talk about in a minute and in the center you can see the main components with which we will be brewing our magic.
+6)	To the <i>left</i>, you can find a handy menu bar which we will talk about in a minute and in the center you can see the main components with which we will be brewing our magic.
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/leftbar.JPG)
 
@@ -128,7 +128,7 @@ You can now see that wit.ai has highlighted our entity.
 
 15)	One useful thing you might notice while working with <b>Wit.ai</b> is that after you add a few examples for a specific intent, Wit automatically tries to classify it. 
 
-16)	Later, I would consider adding some other intent like <b>‘create_list’</b> , <b>‘list_reverse’</b> and <b>‘list_max’</b> for the purpose of this demo and the names are self-explanatory as to what they mean.
+16)	After the end of this project, I would consider adding some other intent like <b>‘create_list’</b> , <b>‘list_reverse’</b> and <b>‘list_max’</b> for the purpose of this demo and the names are self-explanatory as to what they mean.
 
 17)	After you are done adding all your utterances to the chatbot, click on the Setting button under the <i>Management section</i> in the <i>Left menu bar</i>.
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/settings.JPG)
