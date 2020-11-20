@@ -120,12 +120,14 @@ You can now see that wit.ai has highlighted our entity.
 13)	In the same way, you can add multiple utterances with corresponding intent and entities to the chatbot. The more the better. Add a considerable amount of utterances for the trained model to be well generalized. Only then will it return correct outputs for the user’s input prompt. Try to think from the user’s perspective and add your utterances.
 
 14)	( Do not forget to hit the <b>'Train and Validate'</b> button after adding each utterance!!!)
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/train.JPG)
 
 15)	One useful thing you might notice while working with <b>Wit.ai</b> is that after you add a few examples for a specific intent, Wit automatically tries to classify it. 
 
-16)	I would consider adding some other intent like <b>‘create_list’</b> , <b>‘list_reverse’</b> and <b>‘list_max’</b> for the purpose of this demo and the names are self-explanatory as to what they mean.
+16)	Later, I would consider adding some other intent like <b>‘create_list’</b> , <b>‘list_reverse’</b> and <b>‘list_max’</b> for the purpose of this demo and the names are self-explanatory as to what they mean.
 
 17)	After you are done adding all your utterances to the chatbot, click on the Setting button under the <i>Management section</i> in the <i>Left menu bar</i>.
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/settings.JPG)
 
 18)	Therein lies an important piece of information which is the <b>Server Access token</b>. Copy this as we will be needing it later.
 
@@ -145,6 +147,7 @@ If you wish to directly run the final program on your local machine,follow the i
 ~~~
 pip install streamlit wit streamlit-ace 
 ~~~
+'wit' is the library to be installed for interacting with the Wit API and streamlit-ace library is to be installed to construct out of the box code editors on the webpage as implementing one on our own can get quite complicated.
 
 20)	Create a new python file called <b>Devbot.py</b> and paste the following code:<br>
 <i>Read the comments in green to understand the code or follow along for an in depth explanation of the code.</i>
@@ -156,9 +159,7 @@ https://github.com/Sharan-Babu/FB_wit
 <br><br>
 
 
-21)	Here you have a one change to be made. At 'line 5' replace my access token with yours you copied from the settings page for the changes you made to take effect. You can use mine as well.
-
-22)	I have built the web interface along with the interactive code editor you can see using a <i>Python web framework</i> called streamlit. You can learn more about it here:<br> https://www.streamlit.io/
+21)	Here you have one change to be made. At 'line 7' replace my access token with yours which you copied from the settings page for the changes you made to take effect. You can use mine as well.
 
 <b><ins>In-depth explanation of the code</ins></b>: <br>
 We import the streamlit library as <i>'st'</i> and you can see that this is used at multiple lines using which we construct widgets like input box, menu bars and buttons. Lines 38-50 construct the code editor interface using the streamlit-ace library along with parameters of your choice. Lines 10-16 also hold optional parameters that affect the Editor widget. Finally, using lines 5 and 53-62 we output a response to the user.
