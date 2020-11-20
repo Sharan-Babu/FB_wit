@@ -185,7 +185,7 @@ streamlit run Devbot.py
 </ul>
 That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai and successfully integrating it with a web application. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
 
-<br><br>
+<br>
 Scroll to the end to read about my experience with Wit and participating in this competition :point_down:
 <hr>
 
@@ -205,4 +205,5 @@ Linkedin: https://www.linkedin.com/in/sharan-babu-39a757197/
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/image.JPG)
 
-
+## Personal Experience
+It all started with this <a href="https://fbai3.devpost.com/">Facebook Hackathon</a>(2 months ago) as this was the first time I learnt Wit by reading the official documentation and accompanying videos. I experimented with various projects and finally decided on a voice application. Unfortunately, I could not win in that hackathon but learnt a lot about Wit and its features. Later, apart from the pleasant swags I received from <i>Facebook</i> for a successful submission, I was also invited to participate in a Week long Wit.ai JAM session. This was really wonderful for multiple reasons. I got to meet cool people who were using Wit in ways I had never imagined. Apart from that, we had daily sessions ranging from Lightning talks to Natural Language Understanding (NLU) which were all very insightful. Later, I was super stoked to learn that I was selected as one of the 21 regional winners and was on :cloud:9 for a few days. The article you just read was updated with the feedback I received after the first round in mind. I hope you enjoyed reading a lot and had something to take away. 
