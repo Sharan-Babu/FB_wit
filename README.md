@@ -165,11 +165,14 @@ https://github.com/Sharan-Babu/FB_wit
 
 <b><ins>In-depth explanation of the code</ins></b>: <br><ul>
 <li>We import the streamlit library as <i>'st'</i> and you can see that this is used multiple times, using which we construct widgets like input box, menu bars and buttons.</li>
-<li>Lines 38-50 construct the code editor interface using the streamlit-ace library along with parameters of your choice.</li>
-<li>Lines 10-16 also hold optional parameters that affect the Editor widget.</li> 
-<li>Finally, using lines 5 and 53-62 we output a response to the user.</li>
+<li> Other libraries to import are Wit and streamlit-ace (for out of the bo code editor).</li>
+<li> In lines 6-10, we initialize variables for easy readability. Line 8 connects us to the <i>Wit chatbot</i>.</li>
+<li> Lines 12-15 are completely optional. They are parameters of the streamlit-ace component. With this, you can change the supported languages, theme and feel of the editor among many other options.</li>
+<li>The 'output' function from lines 18-23 take the intent and entity etracted from the returned JSON as input and map them to the corresponding outputs. Later, if you decide to add other intents and range of use-cases then all you have to do is write a case for handling those intents and entities.</li>
+<li> Lines 24-40, we layout the widgets as per our choice on the webpage. As you can see, the streamlit-ace component has multiple changeable parameters like height,keybinding,font-size and tab-size among other things and they are all optional.
+<li> Lines 44-57, we take input from the user with the help of a textfield, pass it to wit and retrieve the JSON (similar to a dictionary in Python). The Json looks like this: 
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/returned_json.JPG)
 
-<li>Lines 18 to 32 form the backend function that takes the intent and entity extracted from the user prompt as input. <b>Wit API</b> returns <i>JSON (Javasript Object Notation)</i>. It is similar to a Python dictionary and from that we can find the returned entity. Using this we can hand-craft the output to be displayed to our user.
 
 <li>Save the file. Open the terminal, go to the working directory and run the command:</li>
 
