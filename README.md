@@ -160,6 +160,7 @@ https://github.com/Sharan-Babu/FB_wit
 
 
 21)	Here you have one change to be made. At 'line 7' replace my access token with yours which you copied from the settings page for the changes you made to take effect. You can use mine as well.
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/token.JPG)
 
 <b><ins>In-depth explanation of the code</ins></b>: <br>
 We import the streamlit library as <i>'st'</i> and you can see that this is used at multiple lines using which we construct widgets like input box, menu bars and buttons. Lines 38-50 construct the code editor interface using the streamlit-ace library along with parameters of your choice. Lines 10-16 also hold optional parameters that affect the Editor widget. Finally, using lines 5 and 53-62 we output a response to the user.
@@ -171,7 +172,7 @@ We import the streamlit library as <i>'st'</i> and you can see that this is used
 streamlit run Devbot.py
 ~~~
 
-25)	That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai. I would recommend you to make more useful apps with your newly learnt skills!</i>:dancer: :dancer:
+25)	That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
 <hr>
 
 ### Other Links
