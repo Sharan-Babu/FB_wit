@@ -134,7 +134,7 @@ You can now see that wit.ai has highlighted our entity.
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit5.JPG)
 
-That’s it. Our chatbot is ready. Now, let us make a simple web interface for our <i>code editor assistant</i>.
+That’s it. Our chatbot/ NLP agent is ready. Now, let us make a simple web interface for our <i>code editor assistant</i>.
 
 ## Code
 If you wish to directly run the final program on your local machine,follow the instructions in the image below:<br><br>
@@ -163,17 +163,20 @@ https://github.com/Sharan-Babu/FB_wit
 21)	Here you have one change to be made. At 'line 7' replace my access token with yours which you copied from the settings page for the changes you made to take effect. You can use mine as well.
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/token.JPG)
 
-<b><ins>In-depth explanation of the code</ins></b>: <br>
-We import the streamlit library as <i>'st'</i> and you can see that this is used at multiple lines using which we construct widgets like input box, menu bars and buttons. Lines 38-50 construct the code editor interface using the streamlit-ace library along with parameters of your choice. Lines 10-16 also hold optional parameters that affect the Editor widget. Finally, using lines 5 and 53-62 we output a response to the user.
+<b><ins>In-depth explanation of the code</ins></b>: <br><ul>
+<li>We import the streamlit library as <i>'st'</i> and you can see that this is used multiple times, using which we construct widgets like input box, menu bars and buttons.</li>
+<li>Lines 38-50 construct the code editor interface using the streamlit-ace library along with parameters of your choice.</li>
+<li>Lines 10-16 also hold optional parameters that affect the Editor widget.</li> 
+<li>Finally, using lines 5 and 53-62 we output a response to the user.</li>
 
-23)	Lines 18 to 32 form the backend function that takes the intent and entity extracted from the user prompt as input. <b>Wit API</b> returns <i>JSON (Javasript Object Notation)</i>. It is similar to a Python dictionary and from that we can find the returned entity. Using this we can hand-craft the output to be displayed to our user.
+<li>Lines 18 to 32 form the backend function that takes the intent and entity extracted from the user prompt as input. <b>Wit API</b> returns <i>JSON (Javasript Object Notation)</i>. It is similar to a Python dictionary and from that we can find the returned entity. Using this we can hand-craft the output to be displayed to our user.
 
-24) Save the file. Open the terminal, go to the working directory and run the command 
+<li>Save the file. Open the terminal, go to the working directory and run the command 
 ~~~
 streamlit run Devbot.py
 ~~~
-
-25)	That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
+</li></ul>
+That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
 <hr>
 
 ### Other Links
