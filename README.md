@@ -3,12 +3,13 @@
 <b>Hi.</b> In this tutorial, I am going to teach you how to use <b>Wit.ai</b> through a fun mini project. By the end of this project, you will understand the basics of  <i>Natural Language Processing, intent recognition and entity extraction. You will also learn how to use wit.ai for your use case.</i>
 
 ## Prerequisites
-No technical expertise needed (beginner friendly).<br>
-Basic idea of Python and API calls (Optional).<br>
-Requires Python with version > 3 and streamlit library (Steps to download mentioned in the tutorial).
+<ul>
+  <li>No technical expertise needed (beginner friendly).</li>
+  <li>Basic idea of Python and API calls (Optional).</li>
+<li>Requires Python with version > 3 and streamlit library (Steps to download mentioned in the tutorial).</li></ul>
 
 ## Getting Started 
-Ok, so let us consider a real world example to get ourselves excited. How do big companies like <i>Amazon, Flipkart</i> evaluate the customer reviews for a product or automate a considerable amount of  their customer care services? This is done with the help of Natural Language Processing (abbreviated as NLP). It is a branch of <i>Artificial Intelligence/ Machine Learning</i> that deals with the interaction between computers and humans through the medium of natural language. This could be <i>text or speech.</i> We ultimately want to derive meaningful insights from the end user’s input.
+Ok, so let us consider a real world example to get ourselves excited :exclamation:. How do big companies like <i>Amazon, Flipkart</i> evaluate the customer reviews for a product or automate a considerable amount of  their customer care services? This is done with the help of Natural Language Processing (abbreviated as NLP). It is a branch of <i>Artificial Intelligence/ Machine Learning</i> that deals with the interaction between computers and humans through the medium of natural language. This could be <i>text or speech.</i> We ultimately want to derive meaningful insights from the end user’s input.
 
 ## Basic Concepts
 Now, let us learn about 2 important concepts in NLP which will help us in implementing the project that follows this theory.
@@ -20,15 +21,17 @@ First, let us understand what <b>intent recognition</b> is. As the name suggests
 Intent classification is the automated association of text to a specific purpose or goal. In essence, a classifier analyzes pieces of text and categorizes them into intents such as Purchase, Downgrade, Unsubscribe, and Demo Request.<br>
 <i>source: google</i>
 
-Now, let us move on to what <b>entity extraction</b> is…. Continuing with the theme of the above voice assistant example, the term <i>'morning'</i> in your request <b><i>“Set a reminder to wake me up in the morning”</b></i> is very vague. 
+Now, let us move on to what <b>entity extraction</b> is…. Continuing with the theme of the above voice assistant example, the term <i>'morning'</i> in your request <b><i>“Set a reminder to wake me up in the morning”</b></i> is somewhat vague. 
 
 A more meaningful input to the device would be, <b><i>“Wake me up every day at 7 am”</b></i>. Now, your assistant wakes you up daily exactly at 7 am because not only did it recognize the intent of the user but it also extracted the entity. In this case, the assistant understands that the value ‘7’ refers to the time.
 
-Note that people who built this algorithm had to define numbers like this to be extracted as time before hand and trained the AI algorithm accordingly.
+Note that people who built this algorithm had to define numbers like this to be extracted as time before-hand and trained the AI algorithm accordingly.
 
 <b><ins>Formal definition of Entity Recognition is</ins>:</b><br>
 Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions.<br>
 <i>source: google</i>
+
+### Basics of streamlit
 
 
 ## What will we be building?<br>
