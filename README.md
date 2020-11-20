@@ -160,22 +160,22 @@ https://github.com/Sharan-Babu/FB_wit
 <br><br>
 
 
-21)	Here you have one change to be made. At 'line 7' replace my access token with yours which you copied from the settings page for the changes you made to take effect. You can use mine as well.
+21)	Here,you have one change to be made. At 'line 7' replace my access token with yours which you copied from the settings page for the changes you made to take effect. You can use mine as well.
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/token.JPG)
 
 <b><ins>In-depth explanation of the code</ins></b>: <br><ul>
 <li>We import the streamlit library as <i>'st'</i> and you can see that this is used multiple times, using which we construct widgets like input box, menu bars and buttons.</li>
-<li> Other libraries to import are Wit and streamlit-ace (for out of the bo code editor).</li>
+<li> Other libraries to import are Wit and streamlit-ace (out of the box code editor).</li>
 <li> In lines 6-10, we initialize variables for easy readability. Line 8 connects us to the <i>Wit chatbot</i>.</li>
 <li> Lines 12-15 are completely optional. They are parameters of the streamlit-ace component. With this, you can change the supported languages, theme and feel of the editor among many other options.</li>
-<li>The 'output' function from lines 18-23 take the intent and entity etracted from the returned JSON as input and map them to the corresponding outputs. Later, if you decide to add other intents and range of use-cases then all you have to do is write a case for handling those intents and entities.</li>
+<li>The 'output' function from lines 18-23 take the intent and entity etracted from the returned JSON as input and map them to the corresponding outputs. Later, if you decide to add other intents and range of use-cases then all you have to do is write a case/if-block for handling those intents and entities.</li>
 <li> Lines 24-40, we layout the widgets as per our choice on the webpage. As you can see, the streamlit-ace component has multiple changeable parameters like height,keybinding,font-size and tab-size among other things and they are all optional.
-<li> Lines 44-57, we take input from the user with the help of a textfield, pass it to wit and retrieve the JSON (similar to a <i>dictionary</i> in Python). The returned JSON looks like this:</li> </ul>
+<li> Lines 44-57, we take input from the user with the help of a textfield, pass it to Wit and retrieve the JSON (similar to a <i>dictionary</i> in Python). The returned JSON looks like this:</li> </ul>
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/returned_json.JPG)
 
 <ul>
-<li> Line 48 and line 49 parse through the returned JSON and extract the intent and entity respectively. We wrap the entire thing in a <i>'try...catch'</i> block to handle errors</li>
+<li> Line 48 and line 49 parse through the returned JSON and extract the intent and entity respectively. We wrap the entire thing in a <i>'try...catch'</i> block to handle errors.</li>
 <li>Save the file. Open the terminal, go to the working directory and run the command:</li></ul>
 
 ~~~
@@ -184,6 +184,9 @@ streamlit run Devbot.py
 
 </ul>
 That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai and successfully integrating it with a web application. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
+
+<br><br>
+Scroll to the end to read about my experience with Wit and participating in this competition :point_down:
 <hr>
 
 ### Other Links
