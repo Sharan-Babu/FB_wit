@@ -178,7 +178,7 @@ streamlit run Devbot.py
 ~~~
 
 </ul>
-That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
+That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai and successfully integrating it with a web application. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
 <hr>
 
 ### Other Links
