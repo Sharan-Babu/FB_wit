@@ -175,7 +175,7 @@ https://github.com/Sharan-Babu/FB_wit
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/returned_json.JPG)
 
 <ul>
-<li> Line 48 and line 49 parse through the returned JSON and extract the intent and entity respectively. We wrap the entire thing in a <i>'try...except'</i> block to handle errors.</li>
+<li> Line 48 and line 49 parse through the returned JSON and extract the intent and entity respectively. We wrap the entire block of code in a <i>'try...except'</i> block to handle errors.</li>
 <li>Save the file. Open the terminal, go to the working directory and run the command:</li></ul>
 
 ~~~
