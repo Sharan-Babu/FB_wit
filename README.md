@@ -171,11 +171,12 @@ https://github.com/Sharan-Babu/FB_wit
 
 <li>Lines 18 to 32 form the backend function that takes the intent and entity extracted from the user prompt as input. <b>Wit API</b> returns <i>JSON (Javasript Object Notation)</i>. It is similar to a Python dictionary and from that we can find the returned entity. Using this we can hand-craft the output to be displayed to our user.
 
-<li>Save the file. Open the terminal, go to the working directory and run the command 
+<li>Save the file. Open the terminal, go to the working directory and run the command:</li>
 ~~~
 streamlit run Devbot.py
 ~~~
-</li></ul>
+
+</ul>
 That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
 <hr>
 
