@@ -9,7 +9,7 @@ entity=""
 
 LANGUAGES = ["python"]
 
-THEMES = ["solarized","github","twilight","eclipse"]
+THEMES = ["solarized_light","github","twilight","eclipse"]
 
 KEYBINDINGS = [
     "sublime","emacs","vim", "vscode"
