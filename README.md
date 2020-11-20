@@ -45,14 +45,16 @@ pip install streamlit
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/s_basics.png">
 
 #### Running streamlit files<br>
-Let us consider our file name is 'streamlit_basic.py' and we are in the correct directory.
+Let us assume our file name to be 'streamlit_basics.py' and that we are in the correct directory.
 ~~~
 streamlit run streamlit_basics.py
 ~~~
 
 #### Output Website
-Streamlit code is very intuitive and thus you can understand the purpose of each widget by simply comparing the code to the rendered webpage.<br>
+Streamlit code is very intuitive and thus you can understand the purpose of each widget by simply comparing the code to the rendered webpage.<br><br>
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/sb.JPG">
+
+:swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  
 
 ## What will we be building?<br>
 We will be building a <b>'Code Editor Assistant'</b> (chatbot) with the help of <i>Python</i> and <i>wit.ai</i> to help developers build cool software fast (No heavy code,I promise).
