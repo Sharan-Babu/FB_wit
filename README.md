@@ -28,7 +28,7 @@ Now, let us move on to what <b>entity extraction</b> is…. Continuing with the 
 
 A more meaningful input to the device would be, <b><i>“Wake me up every day at 7 am”</b></i>. Now, your assistant wakes you up daily exactly at 7 am because not only did it recognize the intent of the user but it also extracted the entity. In this case, the assistant understands that the value ‘7’ refers to the time.
 
-Note that people who built this algorithm had to define numbers like this to be extracted as time before-hand and trained the AI algorithm accordingly.
+Note that people who built this algorithm had to define numbers like this to be extracted as 'time' before-hand and trained the AI algorithm accordingly.
 
 <b><ins>Formal definition of Entity Recognition is</ins>:</b><br>
 Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions.<br>
