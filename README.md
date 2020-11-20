@@ -54,7 +54,7 @@ streamlit run streamlit_basics.py
 ~~~
 
 #### Output Website
-Streamlit code is very intuitive and thus you can understand the purpose of each widget by simply comparing the code to the rendered webpage.<br><br> For Example: You can place 'Title'/large text on the webpage by passing a string of your choice to the .title() method.<br> You can learn more about Streamlit here:
+Streamlit code is very intuitive and thus, you can understand the purpose of each widget by simply comparing the code to the rendered webpage.<br><br> For Example: You can place 'Title'/large text on the webpage by passing a string of your choice to the .title() method.<br> You can learn more about Streamlit here:
 https://www.streamlit.io/<br><br>
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/sb.JPG">
 
@@ -94,7 +94,7 @@ Now, click on the <b>Create New App</b> button.
 <br><i>(Click on image to enlarge it)</i>
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit3.JPG)
 
-6)	To the <i>left</i>, you can find a handy menu bar which we will talk about in a minute and in the center you can see the main components with which we will be brewing our magic.
+6)	To the <i>left</i>, you can find a handy menu bar which we will talk about in a minute and at the centre, you can see the main components with which we will be brewing our magic.
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/leftbar.JPG)
 
@@ -117,19 +117,20 @@ You can now see that wit.ai has highlighted our entity.
 
 11)	Click on the <b>Train and Validate</b> button at the bottom and <i>voila,</i> you just added the first utterance to your chatbot. :clap: :clap: :clap:
 
-12)	From what we have done so far, we can realize the role that the extracted intent and entity will be playing in the website's source code. For example, considering the utterance we just added, it is important to know what the user had named his/her <i>'list'</i> as and what he/she wishes to do with it. With this information, we could return <b>‘elements = elements.sorted()’</b> to the user which is the right answer for sorting elements in ascending order in Python.
+12)	From what we have done so far, we can realize the role that the extracted intent and entity will be playing in the website's source code. For example, considering the utterance we just added, it is important to know what the user had named his/her <i>'list'</i> as and what he/she wishes to do with it. With this information, we could return <b>‘elements = elements.sorted()’</b> to the user which is the right syntax for sorting elements in ascending order in Python.
 
 13)	In the same way, you can add multiple utterances with corresponding intent and entities to the chatbot. The more the better. Add a considerable amount of utterances for the trained model to be well generalized. Only then will it return correct outputs for the user’s input prompt. Try to think from the user’s perspective and add your utterances.
 
-14)	( Do not forget to hit the <b>'Train and Validate'</b> button after adding each utterance!!!)
+14)	Do not forget to hit the <b>'Train and Validate'</b> button after adding each utterance!!!
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/train.JPG)
 
 15)	One useful thing you might notice while working with <b>Wit.ai</b> is that after you add a few examples for a specific intent, Wit automatically tries to classify it. 
 
-16)	After the end of this project, I would consider adding some other intent like <b>‘create_list’</b> , <b>‘list_reverse’</b> and <b>‘list_max’</b> for the purpose of this demo and the names are self-explanatory as to what they mean.
+16)	After the end of this project, I would consider adding some other intents like <b>‘create_list’</b> , <b>‘list_reverse’</b> and <b>‘list_max’</b> for the purpose of this demo and the names are self-explanatory as to what they mean.
 
 17)	After you are done adding all your utterances to the chatbot, click on the Setting button under the <i>Management section</i> in the <i>Left menu bar</i>.
+
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/settings.JPG)
 
 18)	Therein lies an important piece of information which is the <b>Server Access token</b>. Copy this as we will be needing it later.
@@ -153,7 +154,7 @@ pip install streamlit wit streamlit-ace
 '<i>wit</i>' is the library to be installed for interacting with the Wit API and '<i>streamlit-ace'</i> library is to be installed to construct out of the box code-editors on the webpage as implementing one on our own can get quite complicated.
 
 20)	Create a new python file called <b>Devbot.py</b> and paste the following code:<br>
-<i>Read the comments in green to understand the code or follow along for an in depth explanation of the code.</i>
+<i>Read the comments in green to understand the code or follow along for an in-depth explanation of the code.</i>
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/code1.png)
 
@@ -162,7 +163,7 @@ https://github.com/Sharan-Babu/FB_wit
 <br><br>
 
 
-21)	Here,you have one change to be made. At 'line 7' replace my access token with yours which you copied from the settings page for the changes you made to take effect. You can use mine as well.
+21)	Here,you have one change to be made. At 'line 7' replace my 'access token' with yours which you copied from the settings page for the changes you made to take effect. You can use mine as well.
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/token.JPG)
 
 <b><ins>In-depth explanation of the code</ins></b>: <br><ul>
@@ -185,6 +186,11 @@ streamlit run Devbot.py
 ~~~
 
 </ul>
+
+### <ins>Picture of the final web application</ins>:
+
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/image.JPG)
+
 That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai and successfully integrating it with a web application. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
 
 <br><br>
@@ -203,14 +209,11 @@ Email: sharanbabu2001@gmail.com  <br>
 Linkedin: https://www.linkedin.com/in/sharan-babu-39a757197/
 <hr>
 
-### <ins>Picture of the final web application</ins>:
-
-![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/image.JPG)
 
 ## Personal Experience
-It all started with this <a href="https://fbai3.devpost.com/">Facebook Hackathon</a>(2 months ago) as this was the first time I learnt Wit by reading the official documentation and accompanying videos. I experimented with various projects and finally decided on a voice application. Unfortunately, I could not win in that hackathon but learnt a lot about Wit and its features. Later, apart from the pleasant swags I received from <i>Facebook</i> for a successful submission, I was also invited to participate in a Week long Wit.ai JAM session. This was really wonderful for multiple reasons. I got to meet cool people who were using Wit in ways I had never imagined and this was the first time I was part of a professional community of devs :smile:. Apart from that, we had daily sessions ranging from Lightning talks to Natural Language Understanding (NLU) which were all very insightful. Later, I was super stoked to learn that I was selected as one of the 21 regional winners and was on :cloud:9 for a few days. The article you just read was updated with the feedback I received after the first round in mind. I hope you enjoyed reading it and had something to take away. <br><br>
+It all started with this <a href="https://fbai3.devpost.com/">Facebook Hackathon</a>(2 months ago) as this was the first time I learnt Wit by reading the official documentation and accompanying videos. I experimented with various projects and finally decided on a voice application. Unfortunately, I could not win in that hackathon but learnt a lot about Wit and its features. Later, apart from the pleasant swags I received from <i>Facebook</i> for a successful submission, I was also invited to participate in a Week long Wit.ai JAM session. This was really wonderful for multiple reasons. I got to meet cool people who were using Wit in ways I had never imagined and this was the first time I was part of a professional community of devs :smile:. Apart from that, we had daily sessions ranging from Lightning talks to Natural Language Understanding (NLU) which were all very insightful. Later, I was super stoked to learn that I had been selected as one of the 21 regional winners and was on :cloud:9 . The tutorial you just read was updated with the feedback I received after the first round in mind. I hope you enjoyed reading it and had something to take away. <br><br>
 From a technical perspective, I like <i>Wit.ai</i> for NLP tasks more than its rivals like Dialogflow or Rasa. 
 <br><br>
-To conclude, I would like to say that <i>Wit</i> has a special place in my heart among other technical skills and am glad that I could contribute to the community. I intend to write more articles on Wit.ai and help people learn to use this amazing chatbot framework.
+To conclude, I would like to say that <i>Wit</i> has a special place in my heart among other technical skills and am glad that I could contribute to the community. I intend to write more tutorials on Wit.ai and help people learn to use this amazing chatbot framework.
 
 Cheers!
