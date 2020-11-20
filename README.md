@@ -86,6 +86,7 @@ Now, click on the <b>Create New App</b> button.
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit2.JPG)
 
 4)	Select the <b>name</b> for your app and <b>preferred language</b> and click <b>'Create'</b>.
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/create.JPG)
 
 5)	A new project will be created and your screen should look like this:
 <br><i>(Click on image to enlarge it)</i>
