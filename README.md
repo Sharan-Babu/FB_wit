@@ -31,7 +31,7 @@ Note that people who built this algorithm had to define numbers like this to be 
 Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions.<br>
 <i>source: google</i>
 
-### Basics of Streamlit
+## Basics of Streamlit
 #### What is Streamlit?<br>
 <i>Streamlit</i> is an open source web framework that lets you build webpages using only Python :snake:. Thereby, removing the need for developers to use HTML, CSS and Js. It uses what is called as widgets/components to construct your website.<br><br>
 <b><ins>Developer Trivia</ins>:</b> Streamlit components are essentially Python wrappers of React code (Judges, extra points :grin:?).
@@ -51,7 +51,8 @@ streamlit run streamlit_basics.py
 ~~~
 
 #### Output Website
-Streamlit code is very intuitive and thus you can understand the purpose of each widget by simply comparing the code to the rendered webpage.<br><br>
+Streamlit code is very intuitive and thus you can understand the purpose of each widget by simply comparing the code to the rendered webpage.You can learn more about Streamlit here:
+https://www.streamlit.io/<br><br>
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/sb.JPG">
 
 :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:
@@ -87,6 +88,7 @@ Now, click on the <b>Create New App</b> button.
 4)	Select the <b>name</b> for your app and <b>preferred language</b> and click <b>'Create'</b>.
 
 5)	A new project will be created and your screen should look like this:
+<br><i>(Click on image to enlarge it)</i>
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit3.JPG)
 
 6)	To the <i>left</i> you can find a handy menu bar which we will talk about in a minute and in the center you can see the main components with which we will be brewing our magic.
