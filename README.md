@@ -170,7 +170,7 @@ https://github.com/Sharan-Babu/FB_wit
 <li> Lines 12-15 are completely optional. They are parameters of the streamlit-ace component. With this, you can change the supported languages, theme and feel of the editor among many other options.</li>
 <li>The 'output' function from lines 18-23 take the intent and entity etracted from the returned JSON as input and map them to the corresponding outputs. Later, if you decide to add other intents and range of use-cases then all you have to do is write a case for handling those intents and entities.</li>
 <li> Lines 24-40, we layout the widgets as per our choice on the webpage. As you can see, the streamlit-ace component has multiple changeable parameters like height,keybinding,font-size and tab-size among other things and they are all optional.
-<li> Lines 44-57, we take input from the user with the help of a textfield, pass it to wit and retrieve the JSON (similar to a dictionary in Python). The Json looks like this: 
+<li> Lines 44-57, we take input from the user with the help of a textfield, pass it to wit and retrieve the JSON (similar to a dictionary in Python). The Json looks like this:</li> 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/returned_json.JPG)
 
 
