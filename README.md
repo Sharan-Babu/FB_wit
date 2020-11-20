@@ -18,6 +18,7 @@ First, let us understand what <b>intent recognition</b> is. As the name suggests
 <i>Example of this in everyday life:</i> When you ask Siri or google assistant to <i>set a reminder to wake you up in the morning</i>, it doesn’t call your most frequented contact which is totally irrelevant from our intended action. This is because it rightly understands what you wanted it to do and hence, does the same.
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/voice-control-2598422_1280.jpg)
+<i> Creative Commons Licence
 
 <b><ins>Formal definition of Intent Classification</ins></b>:<br>
 Intent classification is the automated association of text to a specific purpose or goal. In essence, a classifier analyzes pieces of text and categorizes them into intents such as Purchase, Downgrade, Unsubscribe, and Demo Request.<br>
