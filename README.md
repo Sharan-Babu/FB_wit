@@ -58,7 +58,7 @@ https://www.streamlit.io/<br><br>
 :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:  :swimmer: :swimmer: :swimmer: :swimmer: :swimmer:
 
 ## What will we be building?<br>
-We will be building a <b>'Code Editor Assistant'</b> (chatbot) with the help of <i>Python</i> and <i>wit.ai</i> to help developers build cool software fast (No heavy code,I promise).
+We will be building a <b>'Code Editor Assistant'</b> (chatbot) with the help of <i>Python</i> and <i>Wit.ai</i> to help developers build cool software fast (No heavy code,I promise).
 
 <img src="https://github.com/Sharan-Babu/FB_wit/blob/master/images/virtual-assistant.png" width="450" height="400"><br>
 <i>source</i>: <a href="https://iconscout.com/illustrations/virtual-assistant" target="_blank">Virtual-assistant Illustration</a> by <a href="https://iconscout.com/contributors/delesign" target="_blank">Delesign Graphics</a> (Creative Commons License)<br>
@@ -69,7 +69,7 @@ You can interact with the final outcome of this project by visiting the followin
 
 <b>Wit.ai</b> is a <b>Facebook</b> owned open source chatbot framework with <i>advanced natural language processing</i> capabilities. The best part being you won’t have to code to train the NLP model (chatbot) or need prior knowledge of any kind. All you have to do is <i>type and click</i> and your chatbot is ready to be served in your app with the help of a simple API call.
 
-Something that might interest you from a production/business perspective is that <b>Wit.ai</b> provides a generous free tier with up to <i>240 requests per minute per user</i> and <i>60 requests per minute per app</i>.
+Something that might interest you from a production/business perspective is that <b>Wit.ai</b> provides a <b>generous free tier</b> with up to <i>240 requests per minute per user</i> and <i>60 requests per minute per app</i>.
 
 Now, let us build the <b>chatbot</b> from ground up using <i>Wit.ai</i> and I will be explaining the procedure one step at a time.
 
@@ -93,11 +93,17 @@ Now, click on the <b>Create New App</b> button.
 
 6)	To the <i>left</i> you can find a handy menu bar which we will talk about in a minute and in the center you can see the main components with which we will be brewing our magic.
 
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/leftbar.JPG)
+
 7)	 Now, let us understand how to create an intent and select present entities in the incoming prompt as per our use-case <i>(Code Assistant)</i>.
 
 8)	 In the <i>Utterance text field</i>, type what you think the end user might type. For example: A coder using our web app might type <i>"arrange my list called 'elements' in ascending order"</i>. So, this becomes our <b>utterance</b>. 
 
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/utterance.JPG)
+
 9)	 Select the <b>‘Choose or add intent’</b> dropdown button. Now, enter an intent name (a name you are comfortable with) in the text field visible and click the <b>‘+ Create Intent’</b> button to the right. In this case, I will be naming my intent <b><i>‘arrange_list’</i></b>.
+
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/addintent.JPG)
 
 10)	<ins>Time to select an entity</ins>:
 Select the text <b>‘elements’</b>. As soon as you do this, you will see a new dropdown menu. Now enter an entity name of your choice in the <b>‘Entity for elements’</b> text field and click <b>‘+ Create Entity’</b>. I will be naming it <b>‘list_name’</b>. I would recommend you to follow this naming convention if you are making the app along with me.
