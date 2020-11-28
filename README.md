@@ -195,6 +195,7 @@ If you instead want the simplest interface possible, you can use the following c
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/simpler_website.png)
 
+### Output:
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/simple_code_website.JPG)
 
 That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai and successfully integrating it with a web application. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
