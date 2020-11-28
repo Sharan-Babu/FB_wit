@@ -1,6 +1,6 @@
 # DevCoder - Wit.ai
 ## Introduction
-<b>Hi.</b> In this tutorial, I am going to teach you how to use <b>Wit.ai</b> through a fun mini project. By the end of this project, you will understand the basics of  <i>Natural Language Processing, intent recognition and entity extraction. You will also learn how to use wit.ai for your use cases.</i>
+<b>Hi,</b> In this tutorial, I am going to teach you how to use <b>Wit.ai</b> through a fun mini project. By the end of this project, you will understand the basics of  <i>Natural Language Processing, intent recognition and entity extraction. You will also learn how to use wit.ai for your use cases.</i>
 
 ## Prerequisites
 <ul>
