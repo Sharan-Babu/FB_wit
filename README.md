@@ -191,6 +191,12 @@ streamlit run Devbot.py
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/image.JPG)
 
+If you instead want the simplest interface possible, you can use the following code and have a look at the resulting webpage (Compared to the previous code, we have simply replaced the code editor component with a text-field. Nothing else has been done).
+
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/simpler_website.png)
+
+![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/simpler_code_website.JPG)
+
 That’s it. We are done and now you have a fully functional and useful web app that can help make the lives of <i>devs</i> a little bit easier. <i>Congrats on making your first chatbot with Wit.ai and successfully integrating it with a web application. I would recommend you to make this app more robust or make other useful apps with your newly learnt skills!</i>:dancer: :dancer:
 
 <br><br>
