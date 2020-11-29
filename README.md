@@ -209,7 +209,7 @@ Youtube URL for the demo: https://youtu.be/OQjbIcpCgSE
 <br>
 Github repository link: https://github.com/Sharan-Babu/FB_wit
 <br>
-Hosted Demo Link: https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
+Hosted Website Link: https://share.streamlit.io/sharan-babu/fb_wit/Devbot.py
 <br><br>
 Please feel free to give your feedback @:<br>
 Email: sharanbabu2001@gmail.com  <br>
