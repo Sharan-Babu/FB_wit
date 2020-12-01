@@ -82,7 +82,7 @@ Now, let us build the <b>chatbot</b> from ground up using <i>Wit.ai</i> and I wi
 
 2)	Click on Continue with Facebook account and fill the necessary details.
 
-3) Your homepage should look something like this. If this is the first time you have logged in, you will also be guided with the help of an interactive tutorial. Nevertheless, you can continue reading through this article to navigate your way through the platform.
+3) Your homepage should look something like this. If this is the first time you have logged in, you will also be guided with the help of an interactive tutorial. Nevertheless, you can continue reading through this tutorial to navigate your way through the platform.
 Now, click on the <b>Create New App</b> button.
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/wit2.JPG)
@@ -127,7 +127,7 @@ You can now see that wit.ai has highlighted our entity.
 
 15)	One useful thing you might notice while working with <b>Wit.ai</b> is that after you add a few examples for a specific intent, Wit automatically tries to classify it. 
 
-16)	After the end of this project, I would consider adding some other intents like <b>‘create_list’</b> , <b>‘list_reverse’</b> and <b>‘list_max’</b> for the purpose of this demo and the names are self-explanatory as to what they mean.
+16)	After the end of this project, I would consider adding some other intents like <b>‘create_list’</b> , <b>‘list_reverse’</b> and <b>‘list_max’</b> and the names are self-explanatory as to what they mean.
 
 17)	After you are done adding all your utterances to the chatbot, click on the Setting button under the <i>Management section</i> in the <i>Left menu bar</i>.
 
