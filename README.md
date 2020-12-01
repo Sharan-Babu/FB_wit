@@ -171,9 +171,9 @@ https://github.com/Sharan-Babu/FB_wit
 <li> Other libraries to import are Wit and streamlit-ace (out of the box code editor).</li>
 <li> In lines 6-10, we initialize variables for easy readability. Line 8 connects us to the <i>Wit chatbot</i>.</li>
 <li> Lines 12-15 are completely optional. They are parameters of the streamlit-ace component. With this, you can change the supported languages, theme and feel of the editor among many other options.</li>
-<li>The 'output' function from lines 18-23 take the intent and entity extracted from the returned JSON as input and map them to the corresponding outputs. Later, if you decide to add other intents and range of use-cases then all you have to do is write a case/if-block for handling those intents and entities.</li>
+<li>The 'output' function from lines 18-23 take the intent and entity extracted from the returned JSON(JavaScript Object Notation) as input and map them to the corresponding outputs. Later, if you decide to add other intents and range of use-cases then all you have to do is write a case/if-block for handling those intents and entities.</li>
 <li> Lines 24-40, we layout the widgets as per our choice on the webpage. As you can see, the streamlit-ace component has multiple changeable parameters like height,keybinding,font-size and tab-size among other things and they are all optional.
-<li> Lines 44-57, we take input from the user with the help of a textfield, pass it to Wit and retrieve the JSON (similar to a <i>dictionary</i> in Python). The returned JSON(JavaScript Object Notation) looks like this:</li> </ul>
+<li> Lines 44-57, we take input from the user with the help of a textfield, pass it to Wit and retrieve the JSON (similar to a <i>dictionary</i> in Python). The returned JSON looks like this:</li> </ul>
 
 ![''](https://github.com/Sharan-Babu/FB_wit/blob/master/images/returned_json.JPG)
 
